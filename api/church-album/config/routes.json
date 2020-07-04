@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/church-albums",
+      "handler": "church-album.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/church-albums/count",
+      "handler": "church-album.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/church-albums/:id",
+      "handler": "church-album.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/church-albums",
+      "handler": "church-album.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/church-albums/:id",
+      "handler": "church-album.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/church-albums/:id",
+      "handler": "church-album.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "parsons",
+  "info": {
+    "name": "parson"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "parson": {
+      "type": "component",
+      "repeatable": true,
+      "component": "church.parson"
+    }
+  }
+}

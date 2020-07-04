@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_church_holy_masses",
+  "info": {
+    "name": "holy-mass",
+    "icon": "burn"
+  },
+  "options": {},
+  "attributes": {
+    "hour": {
+      "type": "string"
+    }
+  }
+}

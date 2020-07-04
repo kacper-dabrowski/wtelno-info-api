@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/holy-mass",
+      "handler": "holy-mass.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/holy-mass",
+      "handler": "holy-mass.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/holy-mass",
+      "handler": "holy-mass.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

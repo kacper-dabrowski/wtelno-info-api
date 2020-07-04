@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/important-date",
+      "handler": "important-date.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/important-date",
+      "handler": "important-date.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/important-date",
+      "handler": "important-date.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

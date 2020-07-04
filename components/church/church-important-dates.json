@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_church_church_important_dates",
+  "info": {
+    "name": "church-important-date",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

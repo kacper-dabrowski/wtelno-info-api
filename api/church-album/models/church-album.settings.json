@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "church_albums",
+  "info": {
+    "name": "church-album"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

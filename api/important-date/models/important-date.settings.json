@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "important_dates",
+  "info": {
+    "name": "important-dates"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "component",
+      "repeatable": true,
+      "component": "church.church-important-dates"
+    }
+  }
+}

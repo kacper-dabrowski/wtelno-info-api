@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/parson",
+      "handler": "parson.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/parson",
+      "handler": "parson.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/parson",
+      "handler": "parson.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

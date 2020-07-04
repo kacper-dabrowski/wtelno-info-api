@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "holy_masses",
+  "info": {
+    "name": "holy-mass"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "sunday": {
+      "type": "component",
+      "repeatable": true,
+      "component": "church.holy-mass"
+    },
+    "excluded": {
+      "type": "component",
+      "repeatable": true,
+      "component": "church.holy-mass"
+    },
+    "normal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "church.holy-mass"
+    }
+  }
+}

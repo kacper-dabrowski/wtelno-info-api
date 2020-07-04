@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/historical-people",
+      "handler": "historical-person.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/historical-people/count",
+      "handler": "historical-person.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/historical-people/:id",
+      "handler": "historical-person.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/historical-people",
+      "handler": "historical-person.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/historical-people/:id",
+      "handler": "historical-person.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/historical-people/:id",
+      "handler": "historical-person.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

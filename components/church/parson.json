@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_church_parsons",
+  "info": {
+    "name": "parson",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "telephoneNumber": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
