@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_government_government_members",
+  "info": {
+    "name": "government-member",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "governors",
+  "info": {
+    "name": "governor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "government.address"
+    },
+    "telephoneNumber": {
+      "type": "string"
+    }
+  }
+}

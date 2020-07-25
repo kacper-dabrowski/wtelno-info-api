@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mayor",
+      "handler": "mayor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mayor",
+      "handler": "mayor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mayor",
+      "handler": "mayor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

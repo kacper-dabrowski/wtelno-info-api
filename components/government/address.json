@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_government_addresses",
+  "info": {
+    "name": "address",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    }
+  }
+}

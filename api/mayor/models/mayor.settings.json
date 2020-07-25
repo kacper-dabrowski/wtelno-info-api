@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "mayors",
+  "info": {
+    "name": "mayor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "government.address"
+    },
+    "telephoneNumber": {
+      "type": "string"
+    },
+    "webpage": {
+      "type": "string"
+    }
+  }
+}

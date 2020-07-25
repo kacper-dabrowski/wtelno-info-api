@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/government-member",
+      "handler": "government-member.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/government-member",
+      "handler": "government-member.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/government-member",
+      "handler": "government-member.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

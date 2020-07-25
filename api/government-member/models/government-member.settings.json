@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "government_members",
+  "info": {
+    "name": "government-member"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "government": {
+      "type": "component",
+      "repeatable": true,
+      "component": "government.government-member"
+    }
+  }
+}
