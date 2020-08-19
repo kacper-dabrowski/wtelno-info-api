@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_utils_galerias",
+  "info": {
+    "name": "galeria",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "photos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

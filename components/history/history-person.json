@@ -1,12 +1,21 @@
 {
-  "collectionName": "components_history_historical_people",
+  "collectionName": "components_history_history_people",
   "info": {
-    "name": "historical-person",
-    "icon": "address-card"
+    "name": "history-person",
+    "icon": "archway"
   },
   "options": {},
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "additionalInfo": {
+      "type": "richtext"
+    },
+    "lifeYears": {
       "type": "string"
     },
     "photo": {
@@ -19,12 +28,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "years": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
     }
   }
 }

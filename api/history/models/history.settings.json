@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "histories",
+  "info": {
+    "name": "history"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "historia": {
+      "type": "richtext"
+    },
+    "character": {
+      "type": "component",
+      "repeatable": true,
+      "component": "history.history-person"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.galeria"
+    }
+  }
+}
