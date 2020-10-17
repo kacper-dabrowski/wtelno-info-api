@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/governor-page",
+      "handler": "governor-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/governor-page",
+      "handler": "governor-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/governor-page",
+      "handler": "governor-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
